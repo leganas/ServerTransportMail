@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="main_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="279.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.leganas.desktop.WindowController.MainMenuWindowController">
+   <children>
+      <Button layoutX="22.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickServer" prefHeight="61.0" prefWidth="548.0" text="Сервер" />
+      <Button layoutX="22.0" layoutY="93.0" mnemonicParsing="false" onAction="#clickClientServer" prefHeight="70.0" prefWidth="548.0" text="Сервер/Клиент" />
+      <Button layoutX="22.0" layoutY="179.0" mnemonicParsing="false" onAction="#clickClient" prefHeight="61.0" prefWidth="548.0" text="Клиент" />
+      <Label layoutX="22.0" layoutY="248.0" text="IP Адресс для подключения :" />
+      <TextField fx:id="ip_adress_tf" layoutX="188.0" layoutY="244.0" text="localhost" />
+   </children>
+</Pane>
